@@ -1,4 +1,4 @@
-package com.afaqy.demo.jdbc;
+package edu.demo.jdbc;
 
 import java.sql.*;
 

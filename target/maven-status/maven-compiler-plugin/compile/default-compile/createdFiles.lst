@@ -1,1 +1,4 @@
-com/afaqy/demo/jdbc/Main.class
+edu/demo/jdbc/Main.class
+edu/demo/jdbc/PreparedStatementTest.class
+edu/demo/jdbc/TransactionProcessingTest.class
+edu/demo/jdbc/JdbcRowSetTest.class

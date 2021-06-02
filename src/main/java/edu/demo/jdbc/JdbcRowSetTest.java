@@ -1,4 +1,4 @@
-package com.afaqy.demo.jdbc;
+package edu.demo.jdbc;
 
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetProvider;
