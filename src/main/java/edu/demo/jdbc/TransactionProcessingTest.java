@@ -1,6 +1,9 @@
 package edu.demo.jdbc;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 /**
  * Name : Main
@@ -39,7 +42,7 @@ public class TransactionProcessingTest {
 
             preparedStatement.executeUpdate();
 
-            throwException();
+            // throwException();
 
             con.commit();//to commit changes
         } catch(Exception e) {
