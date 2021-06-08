@@ -30,7 +30,7 @@ public class TransactionProcessingTest {
                     "insert into offices (officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory)\n"
                             + "values (?,?,?,?,?,?,?,?,?)");
 
-            preparedStatement.setInt(1, 111);
+            preparedStatement.setInt(1, 114);
             preparedStatement.setString(2, "city");
             preparedStatement.setString(3, "phone");
             preparedStatement.setString(4, "add1");
@@ -42,7 +42,7 @@ public class TransactionProcessingTest {
 
             preparedStatement.executeUpdate();
 
-            // throwException();
+            throwException();
 
             con.commit();//to commit changes
         } catch(Exception e) {

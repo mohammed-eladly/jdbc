@@ -37,8 +37,8 @@ public class PreparedStatementTest {
                             + "                       addressLine2, city, state, postalCode, country, salesRepEmployeeNumber, creditLimit)\n"
                             + "values (?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
-            preparedStatement.setInt(1, 12212);
-            preparedStatement.setString(2, "mohammed adly");
+            preparedStatement.setInt(1, 555212);
+            preparedStatement.setString(2, "java team");
             preparedStatement.setString(3, "adly");
             preparedStatement.setString(4, "mohammed");
             preparedStatement.setString(5, "1234567890");
